@@ -1,0 +1,53 @@
+.dxy-btn {
+  border: none;
+  outline: none;
+
+  &.danger {
+    background: $danger;
+    color: $gray-1;
+  }
+
+  &.disabled {
+    background: $gray-6;
+    cursor: not-allowed;
+    &:hover {
+      box-shadow: none;
+    }
+  }
+
+  &.circle {
+    border-radius: $btn-circle-radius;
+    padding: 2rem;
+  }
+
+  &:hover {
+    box-shadow: 0 0 4px $gray-8;
+  }
+}
+
+.middle {
+  padding: $btn-padding;
+  border-radius: $btn-round-radius;
+  font-size: $btn-font-size;
+}
+
+.large {
+  padding: $btn-padding-large;
+  border-radius: $btn-round-radius-large;
+  font-size: $btn-font-size-large;
+  &.circle {
+    border-radius: $btn-circle-radius;
+    padding: 3rem;
+  }
+}
+
+.small {
+  padding: $btn-padding-small;
+  border-radius: $btn-round-radius-small;
+  font-size: $btn-font-size-small;
+
+  &.circle {
+    border-radius: $btn-circle-radius;
+    padding: 1.4rem;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "ESNext",
+    "target": "ES5",
+    "declaration": true,
+    "jsx": "react",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "newLine": "lf",
+    "typeRoots": ["src/@types", "node_modules/@types"],
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": [
+    "src/**/*.test.tsx",
+    "src/index.tsx",
+    "src/ShowComponents.tsx",
+    "src/serviceWorker.ts",
+    "src/setupTests.ts"
+  ]
+}
